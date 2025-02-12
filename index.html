@@ -45,13 +45,15 @@
         <div class="model-container">
             <h2>Artwork 1</h2>
             <model-viewer
-                src="./untitled.glb"
-                ios-src="./untitled.usdz"
+                src="./Fish.glb"
+                ios-src="./Fish.usdz"
                 alt="3D artwork display"
                 ar
                 ar-modes="webxr scene-viewer quick-look"
-                ar-scale="fixed"
-                scale="0.5 0.5 0.5"
+                ar-scale="bounded"
+                min-scale="0.1"
+                max-scale="0.3"
+                scale="0.3 0.3 0.3"
                 camera-controls
                 auto-rotate
                 poster="./poster.png"
